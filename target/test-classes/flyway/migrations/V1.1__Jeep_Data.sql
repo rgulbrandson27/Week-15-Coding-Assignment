@@ -1,4 +1,3 @@
--- Customers
 INSERT INTO customers (customer_id, first_name, last_name, phone) VALUES('ATTAWAY_HECKTOR', 'Hektor', 'Attaway', '755.223.5969');
 INSERT INTO customers (customer_id, first_name, last_name, phone) VALUES('MAYNARD_TORBJORG', 'Torbjørg', 'Maynard', '256.399.4665');
 INSERT INTO customers (customer_id, first_name, last_name, phone) VALUES('VAN_ALTENA_AGNI', 'Agni', 'Van Altena', NULL);

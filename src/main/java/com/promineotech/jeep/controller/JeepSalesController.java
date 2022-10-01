@@ -67,7 +67,7 @@ public interface JeepSalesController {
 	@ResponseStatus(code = HttpStatus.OK)
 	List<Jeep> fetchJeeps(
 		@RequestParam(required = false) 
-			String model,
+			JeepModel model,
 		@RequestParam(required = false)
 			String trim);
 }

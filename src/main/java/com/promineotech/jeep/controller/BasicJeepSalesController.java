@@ -22,9 +22,9 @@ public class BasicJeepSalesController implements JeepSalesController {
 private JeepSalesService jeepSalesService;
 	
 @Override
-public List<Jeep> fetchJeeps(String model, String trim) {
+public List<Jeep> fetchJeeps(JeepModel model, String trim) {
 	log.info("model={}, trim-{}", model, trim);
-	return null;
+	return jeepSalesService.fetchJeeps(model, trim);
 }
 
 
