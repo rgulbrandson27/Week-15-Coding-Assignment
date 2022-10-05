@@ -2,4 +2,4 @@ spring:
   datasource:
     username: root
     password: password
-    url: jdbc:mysql:/localhost:3306/jeep
+    url: jdbc:mysql://localhost:3306/jeep
